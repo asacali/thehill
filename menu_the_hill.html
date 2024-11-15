@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restaurant</title>
+    <style>
+        body {
+            font-family: ClementePDae;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004c24;
+            color: #e5d433;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .menu-section {
+            font-family: ClementePDae;
+			padding: 20px;
+        }
+        .menu-item {
+            font-family: ClementePDae;
+			display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .price {
+            color: #2ecc71;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .menu-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Hill</h1>
+    </header>
+    
+    <div class="menu-section">
+        <h2>Bières au fût</h2>
+        <div class="menu-item">
+            <span>Jupiler 25cl/33cl/50cl</span>
+            <span class="price">2,00€/2,50€/4,00€ (+0,20€ supplément grenadine, coca,...)</span>
+        </div>
+        <div class="menu-item">
+            <span>Leffe 25cl/33cl/50cl</span>
+            <span class="price">3,20€/3,50€/4,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Scotch CTS 25cl/33cl</span>
+            <span class="price">3,40€/3,80€</span>
+        </div>
+		<div class="menu-item">
+            <span>Triple Karmeliet 25cl/33cl/50cl</span>
+            <span class="price">4,00€/4,20€/8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Cuvée des Trolls 25cl/33cl/50cl</span>
+            <span class="price">4,00€/4,20€/8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Plateau 10 Jupiler 25cl</span>
+            <span class="price">18,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Plateau 10 Jupiler 33cl</span>
+            <span class="price">23,50€</span>
+        </div>
+    </div>
+	
+		<div class="menu-section">
+        <h2>Vins</h2>
+        <div class="menu-item">
+            <span>Blanc 1 verre / Quart de litre / Demi litre</span>
+            <span class="price">2,80€/5,50€/11,00€</span>
+        </div>
+        <div class="menu-item">
+            <span>Rosé 1verre / Quart de litre / Demi litre</span>
+            <span class="price">2,80€/5,50€/11,00€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Rouge 1 verre / Quart de litre/ Demi litre</span>
+            <span class="price">2,80€/5,50€/11,00€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Vin sans alcool</span>
+            <span class="price">3,00€</span>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Bières bouteilles</h2>
+        <div class="menu-item">
+            <span>Carlsberg</span>
+            <span class="price">2,80€</span>
+        </div>
+		<div class="menu-item">
+            <span>Carlsberg 0,0%</span>
+            <span class="price">3,00€</span>
+        </div>
+        <div class="menu-item">
+            <span>Chouffe blonde ou cherry</span>
+            <span class="price">3,80€</span>
+        </div>
+		<div class="menu-item">
+            <span>Desperados</span>
+            <span class="price">4,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Duvel</span>
+            <span class="price">3,80€</span>
+        </div>
+		<div class="menu-item">
+            <span>Grimbergen blonde</span>
+            <span class="price">3,80€</span>
+        </div>
+		<div class="menu-item">
+            <span>Hoegaarden blanche</span>
+            <span class="price">3,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Hoegaarden rosée</span>
+            <span class="price">3,20€</span>
+        </div>
+		<div class="menu-item">
+            <span>Hoegaarden rosée 0,0%</span>
+            <span class="price">3,40€</span>
+        </div>
+		<div class="menu-item">
+            <span>Jupiler</span>
+            <span class="price">2,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Jupiler 0,0%</span>
+            <span class="price">2,20€</span>
+        </div>
+		<div class="menu-item">
+            <span>Kasteel brune</span>
+            <span class="price">4,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Kasteel rouge</span>
+            <span class="price">4,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Kasteel rubus</span>
+            <span class="price">4,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Kriek St Louis</span>
+            <span class="price">3,20€</span>
+        </div>
+		<div class="menu-item">
+            <span>Kwak ambrée</span>
+            <span class="price">3,80€</span>
+        </div>
+		<div class="menu-item">
+            <span>Kwak rouge</span>
+            <span class="price">3,80€</span>
+        </div>
+		<div class="menu-item">
+            <span>Leffe brune</span>
+            <span class="price">3,80€</span>
+        </div>
+		<div class="menu-item">
+            <span>Leffe blonde 0,0%</span>
+            <span class="price">3,70€</span>
+        </div>
+		<div class="menu-item">
+            <span>Liefmans on the rocks</span>
+            <span class="price">3,20€</span>
+        </div>
+		<div class="menu-item">
+            <span>Liefmans on the rocks 0,0%</span>
+            <span class="price">3,40€</span>
+        </div>
+		<div class="menu-item">
+            <span>Liefmans cerise, cassis, framboise</span>
+            <span class="price">3,20€</span>
+        </div>
+		<div class="menu-item">
+            <span>Liefmans Tarot d'or, Tarot noir</span>
+            <span class="price">3,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Pêcheresse</span>
+            <span class="price">3,20€</span>
+        </div>
+		<div class="menu-item">
+            <span>Pale Ale Bass</span>
+            <span class="price">3,20€</span>
+        </div>
+		<div class="menu-item">
+            <span>Rodenbach</span>
+            <span class="price">3,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Vieux Temps</span>
+            <span class="price">2,80€</span>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Bières spéciales</h2>
+        <div class="menu-item">
+            <span>Barbar</span>
+            <span class="price">4,00 €</span>
+        </div>
+        <div class="menu-item">
+            <span>Bush ambrée</span>
+            <span class="price">4,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Chimay bleue</span>
+            <span class="price">3,80€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Chimay blanche</span>
+            <span class="price">4,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Chimay dorée</span>
+            <span class="price">3,80€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Chimay rouge</span>
+            <span class="price">3,80€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Chimay verte</span>
+            <span class="price">4,20€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Corne du bois des pendus simple</span>
+            <span class="price">4,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Corne du bois des pendus triple</span>
+            <span class="price">4,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Cornet</span>
+            <span class="price">4,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Cuvée des Trolls</span>
+            <span class="price">4,20€</span>
+        </div>
+		  <div class="menu-item">
+            <span>LeFort triple</span>
+            <span class="price">4,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Omer</span>
+            <span class="price">4,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Orval</span>
+            <span class="price">4,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Orval (plus d'un an et tempérée)</span>
+            <span class="price">5,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Paix Dieu</span>
+            <span class="price">4,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Pêche Mel'bush ou fram'bush</span>
+            <span class="price">4,20€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Quintine</span>
+            <span class="price">4,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Rasta Trolls</span>
+            <span class="price">4,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Rochefort 8</span>
+            <span class="price">4,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Rochefort 10</span>
+            <span class="price">4,20€</span>
+        </div>
+		  <div class="menu-item">
+            <span>St Hubertus triple</span>
+            <span class="price">4,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Triple Westmalle</span>
+            <span class="price">4,20€</span>
+        </div>
+    </div>
+	
+	<div class="menu-section">
+        <h2>Softs</h2>
+		 <div class="menu-item">
+            <span>Chaudfontaine plate</span>
+            <span class="price">2,20€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Chaudfontaine pétillante</span>
+            <span class="price">2,20€</span>
+        </div>
+        <div class="menu-item">
+            <span>Coca-Cola</span>
+            <span class="price">2,50€</span>
+        </div>
+        <div class="menu-item">
+            <span>Coca-Cola Light</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Coca-Cola Zéro</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Fanta</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Sprite</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Lipton Ice Tea</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Lipton Ice Tea Green</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Schweppes</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Schweppes Agrum'</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Canada Dry</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Fuze Tea pêche hibiscus</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Fuze Tea mangue</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Royal Bliss bitter lemon ou rose</span>
+            <span class="price">2,50€</span>
+        </div>
+			 <div class="menu-item">
+            <span>Red Bull</span>
+            <span class="price">3,50€</span>
+        </div>
+			 <div class="menu-item">
+            <span>Cécémel froid</span>
+            <span class="price">2,50€</span>
+        </div>
+			 <div class="menu-item">
+            <span>Café frappé</span>
+            <span class="price">4,00€</span>
+        </div>
+    </div>
+	
+		<div class="menu-section">
+        <h2>Jus</h2>
+        <div class="menu-item">
+            <span>Minut Maid orange</span>
+            <span class="price">2,50€</span>
+        </div>
+        <div class="menu-item">
+            <span>Minut Maid pomme</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Minut Maid pomme/cerise</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Minut Maid pamplemousse</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Minut Maid Multifruits</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Minut Maid tomate</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Looza ananas</span>
+            <span class="price">2,50€</span>
+        </div>
+    </div>
+	
+		<div class="menu-section">
+        <h2>Boissons chaudes</h2>
+        <div class="menu-item">
+            <span>Café</span>
+            <span class="price">2,50€</span>
+        </div>
+        <div class="menu-item">
+            <span>Espresso</span>
+            <span class="price">2,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>American coffee</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Capuccino</span>
+            <span class="price">3,00€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Café latte macchiato</span>
+            <span class="price">3,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Décaféiné</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Ristretto</span>
+            <span class="price">2,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Thé</span>
+            <span class="price">2,20€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Chocolat chaud</span>
+            <span class="price">3,00€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Chocolat Viennois</span>
+            <span class="price">3,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Lait chaud</span>
+            <span class="price">2,20€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Irish coffee</span>
+            <span class="price">8,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Italian coffee</span>
+            <span class="price">8,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>French coffee</span>
+            <span class="price">8,50€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Soupe Royco/Oxo</span>
+            <span class="price">2,50€</span>
+        </div>
+    </div>
+	
+		<div class="menu-section">
+        <h2>Aperitifs</h2>
+        <div class="menu-item">
+            <span>Advocaat</span>
+            <span class="price">3,50€</span>
+        </div>
+        <div class="menu-item">
+            <span>Batida</span>
+            <span class="price">5,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Baby Ricard</span>
+            <span class="price">2,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Campari</span>
+            <span class="price">5,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Chouffe coffee</span>
+            <span class="price">5,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Cynar</span>
+            <span class="price">5,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Gancia</span>
+            <span class="price">5,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Get 27</span>
+            <span class="price">5,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Get 31</span>
+            <span class="price">5,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Henri Bardouin</span>
+            <span class="price">6,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Kir</span>
+            <span class="price">3,80€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Martini blanc ou rouge</span>
+            <span class="price">4,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Péket x1</span>
+            <span class="price">2€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Péket x5</span>
+            <span class="price">6 €</span>
+        </div>
+		  <div class="menu-item">
+            <span>Péket x10</span>
+            <span class="price">15,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Porto blanc ou rouge</span>
+            <span class="price">4,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Pineau des Charentes</span>
+            <span class="price">3,80€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Pisang</span>
+            <span class="price">5,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Picon</span>
+            <span class="price">5,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Picon vin blanc</span>
+            <span class="price">8,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Picon bière</span>
+            <span class="price">6,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Ricard</span>
+            <span class="price">5,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Safari</span>
+            <span class="price">5,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Tequila</span>
+            <span class="price">5,50€</span>
+        </div>
+    </div>
+	
+		<div class="menu-section">
+        <h2>Cocktails</h2>
+        <div class="menu-item">
+            <span>Apérol Spritz</span>
+            <span class="price">8,00€</span>
+        </div>
+        <div class="menu-item">
+            <span>Collins (Gin, Fuze tea, citron)</span>
+            <span class="price">8,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Margarita</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Mojito (été)</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Mojito fraises (été)</span>
+            <span class="price">8,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Mojito Couilles de singes (été)</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Mojito violette (été)</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Paradise (rhum, ananas, liqueur de mangue, citron vert)</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Peach (rhum, Fuze tea pêche, grenadine, citron)</span>
+            <span class="price">8,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Pina Colada</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Sangria rouge</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Sangria blanche</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Sangria rosée</span>
+            <span class="price">6,00€</span>
+        </div>
+    </div>
+	
+		<div class="menu-section">
+        <h2>Gins</h2>
+        <div class="menu-item">
+            <span>Bombay Sapphire</span>
+            <span class="price">5,50€</span>
+        </div>
+        <div class="menu-item">
+            <span>Bull Dog</span>
+            <span class="price">7,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Buss N°509 Elderflower</span>
+            <span class="price">7,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Enigma (Braine-l'Alleud)</span>
+            <span class="price">8,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Filliers Classic</span>
+            <span class="price">7,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Gin des Géants (Ath)</span>
+            <span class="price">7,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Gin de Binche</span>
+            <span class="price">9,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Hendrick's</span>
+            <span class="price">8,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Lié'Gin (violette)</span>
+            <span class="price">7,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Nordès</span>
+            <span class="price">8,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Panda</span>
+            <span class="price">8,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Poppies</span>
+            <span class="price">8,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Gin Mare</span>
+            <span class="price">8,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Marula</span>
+            <span class="price">9,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Sharish blue gin</span>
+            <span class="price">8,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Waterloo gin</span>
+            <span class="price">9,00€</span>
+        </div>
+    </div>
+	
+		<div class="menu-section">
+        <h2>Whisky's classics</h2>
+        <div class="menu-item">
+            <span>Gentleman Jack</span>
+            <span class="price">7,00€</span>
+        </div>
+        <div class="menu-item">
+            <span>J&B</span>
+            <span class="price">5,50€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Johnny Waler Red label</span>
+            <span class="price">5,50€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Johnny Waler Black label</span>
+            <span class="price">6,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Jameson</span>
+            <span class="price">6,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Jack Daniel's</span>
+            <span class="price">6,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Jack Daniel's Apple</span>
+            <span class="price">6,00€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Jack Daniel's Honey</span>
+            <span class="price">6,50€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Jack Daniel's Fire</span>
+            <span class="price">6,50€</span>
+        </div>
+		   <div class="menu-item">
+            <span>Jack Daniel's Single Barrel</span>
+            <span class="price">7,00€</span>
+        </div>
+    </div>
+	
+		<div class="menu-section">
+        <h2>Whisky's Belges</h2>
+        <div class="menu-item">
+            <span>Carolus</span>
+            <span class="price">9,00€</span>
+        </div>
+        <div class="menu-item">
+            <span>Filliers</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Lambertus</span>
+            <span class="price">9,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Belgian Owl</span>
+            <span class="price">11,00€</span>
+        </div>
+    </div>
+	
+	<div class="menu-section">
+        <h2>Whisky's Japonais</h2>
+        <div class="menu-item">
+            <span>Hibiki 12</span>
+            <span class="price">14,00€</span>
+        </div>
+        <div class="menu-item">
+            <span>Togouchi</span>
+            <span class="price">10,00€</span>
+        </div>
+    </div>
+	
+	<div class="menu-section">
+        <h2>Bourbons Américains</h2>
+        <div class="menu-item">
+            <span>Four Roses</span>
+            <span class="price">7,00€</span>
+        </div>
+        <div class="menu-item">
+            <span>Jura</span>
+            <span class="price">8,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Old Virginin</span>
+            <span class="price">7,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Blantons</span>
+            <span class="price">8,00€</span>
+        </div>
+    </div>
+	
+	<div class="menu-section">
+        <h2>Whisky's Ecossais</h2>
+        <div class="menu-item">
+            <span>Ballantine's</span>
+            <span class="price">7,00€</span>
+        </div>
+        <div class="menu-item">
+            <span>Cardhu Gold Reserve</span>
+            <span class="price">10,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Chivas Regal 12</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Dewar's 12</span>
+            <span class="price">9,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Dewar's 18</span>
+            <span class="price">11,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Epicurean</span>
+            <span class="price">9,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Famous Grouse</span>
+            <span class="price">7,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Glenfiddich 12</span>
+            <span class="price">9,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Glan Farglas 12</span>
+            <span class="price">10,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Gold River 8</span>
+            <span class="price">7,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Lagavulin 16</span>
+            <span class="price">12,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Singleton</span>
+            <span class="price">8,00€</span>
+        </div>
+    </div>
+	
+	<div class="menu-section">
+        <h2>Rhums</h2>
+        <div class="menu-item">
+            <span>Bacardi blanc</span>
+            <span class="price">5,50€</span>
+        </div>
+        <div class="menu-item">
+            <span>Charrette</span>
+            <span class="price">5,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Don Papa</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Diplomatico</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Red Rope</span>
+            <span class="price">7,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Rivière du Mât (noix de coco)</span>
+            <span class="price">7,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Ron Aguere miel</span>
+            <span class="price">7,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Ron Aguere caramel</span>
+            <span class="price">7,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Ron de Jeremy</span>
+            <span class="price">7,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Ryoma</span>
+            <span class="price">7,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>St James</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>St James ambré</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>UTC 4 (arrangé banane flambée)</span>
+            <span class="price">7,00€</span>
+        </div>
+    </div>
+	
+	<div class="menu-section">
+        <h2>Vodka</h2>
+        <div class="menu-item">
+            <span>Eristoff blanche</span>
+            <span class="price">5,50€</span>
+        </div>
+        <div class="menu-item">
+            <span>Eristoff rouge</span>
+            <span class="price">5,50€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Eristoff rose</span>
+            <span class="price">6,00€</span>
+        </div>
+		  <div class="menu-item">
+            <span>Eristoff noire</span>
+            <span class="price">6,00€</span>
+        </div>
+    </div>
+	
+	<div class="menu-section">
+        <h2>Digestifs</h2>
+        <div class="menu-item">
+            <span>Amaretto</span>
+            <span class="price">5,50€</span>
+        </div>
+        <div class="menu-item">
+            <span>Bailey's</span>
+            <span class="price">5,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Bailey's (autres)</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Cointreau</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Dissarono</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Dissarono Velvet</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Cognac</span>
+            <span class="price">8,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Calvados</span>
+            <span class="price">5,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Grand Marnier</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Grappa</span>
+            <span class="price">6,00€</span>
+        </div>
+		<div class="menu-item">
+            <span>Limoncello</span>
+            <span class="price">5,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Crème de Limoncello</span>
+            <span class="price">5,50€</span>
+        </div>
+		<div class="menu-item">
+            <span>Mandarine Napoléon</span>
+            <span class="price">5,50€</span>
+        </div>	
+    </div>
+
+	<div class="menu-section">
+        <h2>Snacks</h2>
+        <div class="menu-item">
+            <span>Chips Lay's (sel ou paprika)</span>
+            <span class="price">1,50€</span>
+        </div>
+        <div class="menu-item">
+            <span>Chips Lay's (grills, chipito, poivre-sel)</span>
+            <span class="price">2,00€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Planche apéro</span>
+            <span class="price">prix du jour</span>
+        </div>
+		 <div class="menu-item">
+            <span>Portion mixte</span>
+            <span class="price">7,00€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Portion mixte + olives</span>
+            <span class="price">8,00€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Portion de fromages</span>
+            <span class="price">4,00€</span>
+        </div>
+		 <div class="menu-item">
+            <span>Portion d'olives</span>
+            <span class="price">2,50€</span>
+        </div>
+    </div>
+</body>
+</html>
